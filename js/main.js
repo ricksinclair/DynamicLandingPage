@@ -48,17 +48,17 @@ const setBgGreet = () => {
   if (hour < 12 && hour > 5) {
     //Morning Settings
     document.body.style.backgroundImage =
-      "url('../img/sun_beams_dawn_meadow_morning_45819_1920x1080.jpg')";
+      "linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)),url('../img/sun_beams_dawn_meadow_morning_45819_1920x1080.jpg')";
     greeting.textContent = "Good Morning";
   } else if (hour < 19 && hour > 11) {
     // afternoonSettings
     document.body.style.backgroundImage =
-      "background-image: url('../img/1920x1080-wallpaper-beach-3.jpg')";
+      "linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)),url('../img/1920x1080-wallpaper-beach-3.jpg')";
     greeting.textContent = "Good Afternoon";
   } else {
     //Evening
     document.body.style.backgroundImage =
-      "url('../img/39602-horizon-astronomical_object-the_starry_night-nature-sky-1920x1080.jpg')";
+      "linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)),url('../img/39602-horizon-astronomical_object-the_starry_night-nature-sky-1920x1080.jpg')";
     greeting.textContent = "Good Evening";
     document.body.style.color = "white";
   }
