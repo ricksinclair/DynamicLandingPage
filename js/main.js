@@ -53,7 +53,7 @@ const setBgGreet = () => {
   } else if (hour < 19 && hour > 11) {
     // afternoonSettings
     document.body.style.backgroundImage =
-      "background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/1920x1080-wallpaper-beach-3.jpg')";
+      "background-image: url('../img/1920x1080-wallpaper-beach-3.jpg')";
     greeting.textContent = "Good Afternoon";
   } else {
     //Evening
